@@ -1,0 +1,25 @@
+{
+  "name": "keybin",
+  "version": "1.0.0",
+  "description": "Simple API wrapper for keybin.net",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mr-Craig/node-keybin.git"
+  },
+  "keywords": [
+    "keybin"
+  ],
+  "author": "Alex Craig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mr-Craig/node-keybin/issues"
+  },
+  "homepage": "https://github.com/Mr-Craig/node-keybin#readme",
+  "dependencies": {
+    "needle": "^3.1.0"
+  }
+}
