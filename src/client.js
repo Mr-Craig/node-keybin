@@ -9,7 +9,6 @@ module.exports.setToken = function(token) {
 const url = "https://api.keybin.net";
 
 module.exports.execute = async function(method, endpoint, data = {}) {
-    console.log(PAT);
     return new Promise((resolve,reject) => {
         needle(method, `${url}${endpoint}`, data, {
             headers: {
